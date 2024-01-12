@@ -12,13 +12,16 @@ Make sure you have the following installed on your machine:
 
 - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 - [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html#installing-rails)
+- SQLite3
+- Node.js
+- Yarn 
 
 ### Installing
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/RealTimeSearchAnalytics.git
+    git clone https://github.com/BryteLitty/realtime-search-app.git
     ```
 
 2. Change into the project directory:
@@ -40,17 +43,20 @@ Make sure you have the following installed on your machine:
     rails db:migrate
     ```
 
-5. Install Redis and start the server:
-
-    ```bash
-    # Example for Linux
-    sudo apt-get install redis-server
-    redis-server
-    ```
-
 ### Running the Application
 
 Start the Rails server:
 
 ```bash
 rails server
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Bright Kportiklah**
+
+- GitHub: [@BryteLitty](https://github.com/BryteLitty)
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Project architecture and requirments provided my [Helojuice](https://helpjuice.com/)
+
