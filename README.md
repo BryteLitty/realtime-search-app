@@ -49,7 +49,7 @@ Start the Rails server:
 
 ```bash
 rails server
-
+```
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Bright Kportiklah**
