@@ -1,0 +1,8 @@
+<h1 class="bg-red-400">Welcome to RealTimeSearchApp</h1>
+
+<%= form_with(id: "search-form") do |f| %>
+  <%= f.text_field :query, id: "search-input", placeholder: "Type your search..." %>
+  <%= f.submit "Search" %>
+<% end %>
+
+<div id="results-container"></div>

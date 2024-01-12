@@ -1,0 +1,18 @@
+<div class="mx-auto bg-black">
+<h1>Real-Time Search Analytics</h1>
+
+<div id="search-form-container">
+  <%= form_tag('/search', method: 'post', id: 'search-form') do %>
+    <%= text_field_tag('query', nil, id: 'search-input', placeholder: 'Type your search...') %>
+    <%= submit_tag('Search') %>
+  <% end %>
+</div>
+
+<div id="search-results">
+  <%= render partial: 'search/search', collection: @searches %>
+</div>
+
+
+<%= javascript_pack_tag 'search' %>
+
+</div>
